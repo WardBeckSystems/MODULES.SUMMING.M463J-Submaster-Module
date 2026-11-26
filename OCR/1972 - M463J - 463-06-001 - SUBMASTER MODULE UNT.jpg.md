@@ -21,7 +21,7 @@ Wiki page: [M463J](../../../../PAGES/M463J.md)
 - **Words (OCR):** 140 in 113 lines: Pn3569 Pn3LA5 2m4401 · 2n4401 · Pn3645 2N44O1 2N4401 · RIIJEK Rs · 22k · ~Rio-EEK CR3 · Bkz · ~Clolo/r5 22 · ~Ri?-22 -C5-op · Ri3 · c6jop · ~C82 3p -C3-
 - **Title block:** (192, 6)–(334, 77) mm: ISSUE |DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN_ GEB · M463] · ENG.GEB 4/78 · SUBMASTER · MODULE · CKDT · APP · COMPONENT · LAYOUT · SCALE · 463-06-001 · ISSUE
 
-Every curve, box, word and wire group: [1972 - M463J - 463-06-001 - SUBMASTER MODULE UNT (traced).json](../SCHEMATICS/1972%20-%20M463J%20-%20463-06-001%20-%20SUBMASTER%20MODULE%20UNT%20(traced).json) (the CAD file: `1972 - M463J - 463-06-001 - SUBMASTER MODULE UNT (traced).dxf`).
+Every curve, box, word and wire group: [1972 - M463J - 463-06-001 - SUBMASTER MODULE UNT (traced).json](../SCHEMATICS/1972%20-%20M463J%20-%20463-06-001%20-%20SUBMASTER%20MODULE%20UNT%20%28traced%29.json) (the CAD file: `1972 - M463J - 463-06-001 - SUBMASTER MODULE UNT (traced).dxf`).
 
 ## Full text
 

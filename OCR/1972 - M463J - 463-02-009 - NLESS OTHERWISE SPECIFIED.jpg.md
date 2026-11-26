@@ -24,7 +24,7 @@ Wiki page: [M463J](../../../../PAGES/M463J.md)
 - **Title block:** (237, 0)–(328, 59) mm: ISSUE DATE · REVISION · WBS · WARD-BECK SySTEL · DRN; GEB · M463 ] · ENG.GEB 4/78 · SUBMASTER MODULE · CKD a / · APP · SCHEMATIC · SCALE · 463-02-009
 - **Wiring (first pass):** 123 connected wire groups from 570 runs, 3 dotted junctions; labelled ends: 496 mm → R27, Iki, R28, 390; 490 mm → 390, FB, PA, 014; 449 mm → R46 2.2, AMpLifiER, 2E6, R3o; 448 mm → R4s 2.2, R46 2.2, 2E7, 2E4; 415 mm → SwS, SWG, Sw7, SoLO
 
-Every curve, box, word and wire group: [1972 - M463J - 463-02-009 - NLESS OTHERWISE SPECIFIED (traced).json](../SCHEMATICS/1972%20-%20M463J%20-%20463-02-009%20-%20NLESS%20OTHERWISE%20SPECIFIED%20(traced).json) (the CAD file: `1972 - M463J - 463-02-009 - NLESS OTHERWISE SPECIFIED (traced).dxf`).
+Every curve, box, word and wire group: [1972 - M463J - 463-02-009 - NLESS OTHERWISE SPECIFIED (traced).json](../SCHEMATICS/1972%20-%20M463J%20-%20463-02-009%20-%20NLESS%20OTHERWISE%20SPECIFIED%20%28traced%29.json) (the CAD file: `1972 - M463J - 463-02-009 - NLESS OTHERWISE SPECIFIED (traced).dxf`).
 
 ## Full text
 

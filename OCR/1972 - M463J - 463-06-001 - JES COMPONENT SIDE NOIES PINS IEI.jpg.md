@@ -21,7 +21,7 @@ Wiki page: [M463J](../../../../PAGES/M463J.md)
 - **Words (OCR):** 151 in 110 lines: Pn3645 · Pn35LS Pn3LA5 214401 2N4401 Pn3L45 2N4AOI 204401 · ~R2z JEK · SwG R23 3K3 · WBS · ~RiiJEK · 22k · Rio-eK · WBS /1-036 81 ~R24 · JSk · ciol0/25 _ Ri3 22 · ~Ri? 22
 - **Title block:** (68, 79)–(226, 348) mm: ~R2z JEK · SwG R23 3K3 · WBS · ~RiiJEK · WBS /1-036 81 ~R24 · JSk · ciol0/25 _ Ri3 22 · RI8 Je? · Ris · ~Cie-33/i0 ~cig · WBs Il-005 · R2s · 620 · Lm3oI · Sw · 2k5 · 2EG · WBS io-011 · R42 R4i R4o R39
 
-Every curve, box, word and wire group: [1972 - M463J - 463-06-001 - JES COMPONENT SIDE NOIES PINS IEI (traced).json](../SCHEMATICS/1972%20-%20M463J%20-%20463-06-001%20-%20JES%20COMPONENT%20SIDE%20NOIES%20PINS%20IEI%20(traced).json) (the CAD file: `1972 - M463J - 463-06-001 - JES COMPONENT SIDE NOIES PINS IEI (traced).dxf`).
+Every curve, box, word and wire group: [1972 - M463J - 463-06-001 - JES COMPONENT SIDE NOIES PINS IEI (traced).json](../SCHEMATICS/1972%20-%20M463J%20-%20463-06-001%20-%20JES%20COMPONENT%20SIDE%20NOIES%20PINS%20IEI%20%28traced%29.json) (the CAD file: `1972 - M463J - 463-06-001 - JES COMPONENT SIDE NOIES PINS IEI (traced).dxf`).
 
 ## Full text
 

@@ -23,7 +23,7 @@ Wiki page: [M463J](../../../../PAGES/M463J.md)
 - **Title block:** (119, 8)–(336, 110) mm: ISSUE DATE · REVISION · APP · WBS WARD-BECK SYSTEMS · DRN. GEB · M463] · ENG.GEB 4/78 · SUBMASTER MODULE · CKD: · Kell · FUNCTIONAL · DIAGRAM · APP · SCALE · ISSUE · 463-01-009
 - **Wiring (first pass):** 101 connected wire groups from 204 runs; labelled ends: 105 mm → SUMMING, OUTPUTS; 101 mm → SOLO, SUMMING, OUTPUTS; 98 mm → M1 /mz; 80 mm → PAN, INSERT; 78 mm → SOLO
 
-Every curve, box, word and wire group: [1972 - M463J - 463-01-009 - MONITOR OUTPUT DIRECT OUTPUT (traced).json](../SCHEMATICS/1972%20-%20M463J%20-%20463-01-009%20-%20MONITOR%20OUTPUT%20DIRECT%20OUTPUT%20(traced).json) (the CAD file: `1972 - M463J - 463-01-009 - MONITOR OUTPUT DIRECT OUTPUT (traced).dxf`).
+Every curve, box, word and wire group: [1972 - M463J - 463-01-009 - MONITOR OUTPUT DIRECT OUTPUT (traced).json](../SCHEMATICS/1972%20-%20M463J%20-%20463-01-009%20-%20MONITOR%20OUTPUT%20DIRECT%20OUTPUT%20%28traced%29.json) (the CAD file: `1972 - M463J - 463-01-009 - MONITOR OUTPUT DIRECT OUTPUT (traced).dxf`).
 
 ## Full text
 

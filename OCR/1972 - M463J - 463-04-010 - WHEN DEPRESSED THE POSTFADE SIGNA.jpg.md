@@ -20,7 +20,7 @@ Wiki page: [M463J](../../../../PAGES/M463J.md)
 - **Words (OCR):** 256 in 147 lines: WBS · M463J · MASTER ASS |GNMENT · swi tch SWS: When · depressed the · M2 · MASTER ASSIGNMENT swi tch SWb : When · fed via summ · depressed_ the · output · gna| · fed via summ
 - **Title block:** (145, 0)–(336, 320) mm: WBS · M463J · M2 · MASTER ASSIGNMENT swi tch SWb : When · fed via summ · depressed_ the · output gna · master · summ i ng bus M2 · ng resistors · the · externa · PUBLIC ADDRESS LEVEL control · R4 1/42
 
-Every curve, box, word and wire group: [1972 - M463J - 463-04-010 - WHEN DEPRESSED THE POSTFADE SIGNA (traced).json](../MECHANICAL/1972%20-%20M463J%20-%20463-04-010%20-%20WHEN%20DEPRESSED%20THE%20POSTFADE%20SIGNA%20(traced).json) (the CAD file: `1972 - M463J - 463-04-010 - WHEN DEPRESSED THE POSTFADE SIGNA (traced).dxf`).
+Every curve, box, word and wire group: [1972 - M463J - 463-04-010 - WHEN DEPRESSED THE POSTFADE SIGNA (traced).json](../MECHANICAL/1972%20-%20M463J%20-%20463-04-010%20-%20WHEN%20DEPRESSED%20THE%20POSTFADE%20SIGNA%20%28traced%29.json) (the CAD file: `1972 - M463J - 463-04-010 - WHEN DEPRESSED THE POSTFADE SIGNA (traced).dxf`).
 
 ## Full text
 

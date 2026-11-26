@@ -20,7 +20,7 @@ Wiki page: [M463J](../../../../PAGES/M463J.md)
 - **Closed boxes:** 80
 - **Dots (junctions):** 1
 
-Every curve, box, word and wire group: [1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE (traced).json](../PINOUTS/1972%20-%20M463J%20-%20463-04-009%20-%20CONNECTOR%20REAR%20VIEW%20HALE%20(traced).json) (the CAD file: `1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE (traced).dxf`).
+Every curve, box, word and wire group: [1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE (traced).json](../PINOUTS/1972%20-%20M463J%20-%20463-04-009%20-%20CONNECTOR%20REAR%20VIEW%20HALE%20%28traced%29.json) (the CAD file: `1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE (traced).dxf`).
 
 ## Full text
 

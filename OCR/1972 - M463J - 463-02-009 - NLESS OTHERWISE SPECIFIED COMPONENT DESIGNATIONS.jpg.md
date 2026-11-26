@@ -23,7 +23,7 @@ Wiki page: [M463J](../../../../PAGES/M463J.md)
 - **Title block:** (360, 2)–(432, 42) mm: Issu DATE | · REVISION · WBS WARD-BECK BybtI · Drn GEL · M463] · ENG.Geb4/79 · SUBMASTER_Module · CKDTRA / · SCHEMATIC · App · SCall · 463-02-009
 - **Wiring (first pass):** 168 connected wire groups from 858 runs; labelled ends: 661 mm → R27, Iki, R2e, 390; 310 mm → Rtse?, R46 2.2, 2E4, R3s; 302 mm → Rtse?, R46 2.2, Amplifier, 2E6; 288 mm → SwS, Sw6 M2, Sw7, SwB; 188 mm → Sw3, Sw4, 14
 
-Every curve, box, word and wire group: [1972 - M463J - 463-02-009 - NLESS OTHERWISE SPECIFIED COMPONENT DESIGNATIONS (traced).json](../SCHEMATICS/1972%20-%20M463J%20-%20463-02-009%20-%20NLESS%20OTHERWISE%20SPECIFIED%20COMPONENT%20DESIGNATIONS%20(traced).json) (the CAD file: `1972 - M463J - 463-02-009 - NLESS OTHERWISE SPECIFIED COMPONENT DESIGNATIONS (traced).dxf`).
+Every curve, box, word and wire group: [1972 - M463J - 463-02-009 - NLESS OTHERWISE SPECIFIED COMPONENT DESIGNATIONS (traced).json](../SCHEMATICS/1972%20-%20M463J%20-%20463-02-009%20-%20NLESS%20OTHERWISE%20SPECIFIED%20COMPONENT%20DESIGNATIONS%20%28traced%29.json) (the CAD file: `1972 - M463J - 463-02-009 - NLESS OTHERWISE SPECIFIED COMPONENT DESIGNATIONS (traced).dxf`).
 
 ## Full text
 
