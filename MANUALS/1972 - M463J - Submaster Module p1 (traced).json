@@ -1,0 +1,54 @@
+{
+ "drawing": "Modules/SUMMING/M463J/MANUALS/1972 - M463J - Submaster Module.pdf",
+ "page": 1,
+ "version": 1,
+ "trace": "_traces/bc5bad1e567bea4c-p1.svg",
+ "sheet": {
+  "number": "",
+  "title": "",
+  "dtype": "",
+  "type": "",
+  "size": "B",
+  "size_assumed": true,
+  "rotate": 0,
+  "px": [1554, 2000],
+  "mm": [335.5, 431.8],
+  "mm_per_px": 0.2159,
+  "facts": {"page": "1", "pages": "32"}
+ },
+ "units": "mm; x right, y up from the sheet's lower-left corner (as in the (traced).dxf)",
+ "bbox": [-0.2, 0.0, 331.2, 422.6],
+ "outlines": {
+  "line": {"rings": 71, "straight": {"n": 1523, "mm": 2893.5}, "curved": {"n": 154, "mm": 247.1}},
+  "text": {"rings": 179, "straight": {"n": 2132, "mm": 2685.1}, "curved": {"n": 456, "mm": 756.7}},
+  "tb": {"rings": 2, "straight": {"n": 143, "mm": 298.3}, "curved": {"n": 6, "mm": 11.5}}
+ },
+ "circles": [],
+ "boxes": [],
+ "text": {
+  "words": 14,
+  "lines": [
+   {"mm": [123.7, 406.1, 261.5, 415.7], "text": "WAAD-BECK SYSTEMS"},
+   {"mm": [264.9, 405.7, 289.5, 415.8], "text": "LTD_"},
+   {"mm": [54.0, 397.7, 287.8, 411.8], "text": "WBS 841 PROGRESS AVENUE; SCAABOROUGH, ONTAAIO M1H 2X4"},
+   {"mm": [123.3, 394.9, 176.6, 400.2], "text": "TELEX: 065-25399"},
+   {"mm": [212.0, 393.4, 288.0, 400.3], "text": "TELEPHONE: 418/438-6550"},
+   {"mm": [144.9, 243.1, 202.1, 255.1], "text": "M463J"},
+   {"mm": [127.4, 229.9, 220.2, 238.7], "text": "SUBMASTER MODULE"},
+   {"mm": [80.1, 4.5, 255.8, 10.0], "text": "DESIGN AND MANUFACTUAE Of PAOFESSIONAL AUDIO EQUIPMENT"}
+  ]
+ },
+ "title_block": {
+  "mm": [47.2, 389.1, 268.3, 424.5],
+  "from": "title-block words (training set)",
+  "text": ["WAAD-BECK SYSTEMS", "WBS 841 PROGRESS AVENUE; SCAABOROUGH, ONTAAIO M1H 2X4", "TELEX: 065-25399", "TELEPHONE: 418/438-6550"]
+ },
+ "dots": [],
+ "summary": [
+  "- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)",
+  "- **Ink extent:** 0–331 mm across, 0–423 mm up",
+  "- **Outlines:** line 71 rings, 1,523 straight (2,894 mm) / 154 curved (247 mm); text 179 rings, 2,132 straight (2,685 mm) / 456 curved (757 mm); tb 2 rings, 143 straight (298 mm) / 6 curved (11.5 mm)",
+  "- **Words (OCR):** 14 in 8 lines: WAAD-BECK SYSTEMS · LTD_ · WBS 841 PROGRESS AVENUE; SCAABOROUGH, ONTAAIO M1H 2X4 · TELEX: 065-25399 · TELEPHONE: 418/438-6550 · M463J · SUBMASTER MODULE · DESIGN AND MANUFACTUAE Of PAOFESSIONAL AUDIO EQUIPMENT",
+  "- **Title block:** (47, 389)–(268, 424) mm: WAAD-BECK SYSTEMS · WBS 841 PROGRESS AVENUE; SCAABOROUGH, ONTAAIO M1H 2X4 · TELEX: 065-25399 · TELEPHONE: 418/438-6550"
+ ]
+}

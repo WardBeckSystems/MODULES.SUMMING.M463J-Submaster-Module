@@ -1,0 +1,52 @@
+{
+ "drawing": "Modules/SUMMING/M463J/MANUALS/1972 - M463J - Submaster Module (2).pdf",
+ "page": 11,
+ "version": 1,
+ "trace": "_traces/1c32a084fb68004c-p11.svg",
+ "sheet": {
+  "number": "",
+  "title": "",
+  "dtype": "",
+  "type": "",
+  "size": "B",
+  "size_assumed": true,
+  "rotate": 0,
+  "px": [1554, 2000],
+  "mm": [335.5, 431.8],
+  "mm_per_px": 0.2159,
+  "facts": {"page": "11", "pages": "32"}
+ },
+ "units": "mm; x right, y up from the sheet's lower-left corner (as in the (traced).dxf)",
+ "bbox": [2.8, 0.0, 335.5, 422.5],
+ "outlines": {
+  "line": {"rings": 52, "straight": {"n": 1289, "mm": 3135.3}, "curved": {"n": 132, "mm": 207.1}},
+  "text": {"rings": 265, "straight": {"n": 2163, "mm": 2382.5}, "curved": {"n": 561, "mm": 895.3}}
+ },
+ "circles": [],
+ "boxes": [],
+ "text": {
+  "words": 42,
+  "lines": [
+   {"mm": [27.6, 410.9, 141.8, 416.4], "text": "WARD-BECK SYSTEMS LTD"},
+   {"mm": [147.5, 362.3, 191.1, 369.2], "text": "DESCRIPTION"},
+   {"mm": [123.1, 349.1, 215.0, 355.8], "text": "8-109 AMPLIFIER SERIES"},
+   {"mm": [42.3, 322.3, 258.6, 329.1], "text": "inverting amplifier with E1 exte rnally strapped to E6."},
+   {"mm": [41.7, 309.0, 267.1, 315.7], "text": "The output of all models of the 8-109 series is actively"},
+   {"mm": [42.1, 302.5, 226.0, 309.4], "text": "balanced and is brought out at pins E4 and E6."},
+   {"mm": [284.8, 59.2, 305.7, 68.3], "text": "ps"},
+   {"mm": [273.3, 47.7, 295.1, 59.2], "text": "BS"},
+   {"mm": [250.9, 25.3, 269.4, 32.5], "text": "tp"},
+   {"mm": [243.5, 18.1, 264.5, 25.3], "text": "ht"},
+   {"mm": [150.1, 5.6, 177.3, 12.3], "text": "8-109-1"}
+  ]
+ },
+ "title_block": {"mm": [21.0, 402.3, 130.4, 425.1], "from": "title-block words (training set)", "text": ["WARD-BECK SYSTEMS LTD"]},
+ "dots": [],
+ "summary": [
+  "- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)",
+  "- **Ink extent:** 3–336 mm across, 0–422 mm up",
+  "- **Outlines:** line 52 rings, 1,289 straight (3,135 mm) / 132 curved (207 mm); text 265 rings, 2,163 straight (2,382 mm) / 561 curved (895 mm)",
+  "- **Words (OCR):** 42 in 11 lines: WARD-BECK SYSTEMS LTD · DESCRIPTION · 8-109 AMPLIFIER SERIES · inverting amplifier with E1 exte rnally strapped to E6. · The output of all models of the 8-109 series is actively · balanced and is brought out at pins E4 and E6. · ps · BS · tp · ht · 8-109-1",
+  "- **Title block:** (21, 402)–(130, 425) mm: WARD-BECK SYSTEMS LTD"
+ ]
+}

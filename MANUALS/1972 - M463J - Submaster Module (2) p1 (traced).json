@@ -1,0 +1,56 @@
+{
+ "drawing": "Modules/SUMMING/M463J/MANUALS/1972 - M463J - Submaster Module (2).pdf",
+ "page": 1,
+ "version": 1,
+ "trace": "_traces/1c32a084fb68004c-p1.svg",
+ "sheet": {
+  "number": "",
+  "title": "",
+  "dtype": "",
+  "type": "",
+  "size": "B",
+  "size_assumed": true,
+  "rotate": 0,
+  "px": [1554, 2000],
+  "mm": [335.5, 431.8],
+  "mm_per_px": 0.2159,
+  "facts": {"page": "1", "pages": "32"}
+ },
+ "units": "mm; x right, y up from the sheet's lower-left corner (as in the (traced).dxf)",
+ "bbox": [-0.2, 0.0, 331.2, 422.6],
+ "outlines": {
+  "line": {"rings": 72, "straight": {"n": 1530, "mm": 2891.7}, "curved": {"n": 159, "mm": 254.8}},
+  "text": {"rings": 177, "straight": {"n": 2102, "mm": 2615.6}, "curved": {"n": 447, "mm": 745.4}},
+  "tb": {"rings": 3, "straight": {"n": 172, "mm": 366.8}, "curved": {"n": 12, "mm": 18.4}}
+ },
+ "circles": [],
+ "boxes": [],
+ "text": {
+  "words": 17,
+  "lines": [
+   {"mm": [54.2, 397.3, 288.0, 412.4], "text": "WBS 841 PAOGAESS AVENUE; SCAABOAOUCH; ONTARIO M1H2x4"},
+   {"mm": [122.8, 406.5, 288.4, 416.1], "text": "WAAD-BECK SYSTEMS LTD_"},
+   {"mm": [123.3, 394.2, 177.3, 399.8], "text": "TeLEX: 0B5-25399"},
+   {"mm": [212.2, 393.4, 287.8, 400.1], "text": "TELEPHONE: 416/438-6550"},
+   {"mm": [144.2, 242.5, 202.9, 255.2], "text": "M463J"},
+   {"mm": [127.2, 231.0, 178.8, 238.9], "text": "SUBMASTER"},
+   {"mm": [185.5, 229.7, 220.2, 239.3], "text": "MODULE"},
+   {"mm": [249.6, 18.1, 310.9, 80.0], "text": "ttp IIBSps"},
+   {"mm": [116.2, 4.3, 256.3, 11.5], "text": "MANUFACTUAE OF PROFESSIONAL AUDIO EQUIPMENT"},
+   {"mm": [80.3, 5.2, 114.4, 10.7], "text": "DESICN AND"}
+  ]
+ },
+ "title_block": {
+  "mm": [47.5, 388.7, 268.1, 424.6],
+  "from": "title-block words (training set)",
+  "text": ["WBS 841 PAOGAESS AVENUE; SCAABOAOUCH; ONTARIO M1H2x4", "WAAD-BECK SYSTEMS LTD_", "TeLEX: 0B5-25399", "TELEPHONE: 416/438-6550"]
+ },
+ "dots": [],
+ "summary": [
+  "- **Sheet:** drawing, size B (assumed) 336 × 432 mm, 1554 × 2000 px traced (0.216 mm/px)",
+  "- **Ink extent:** 0–331 mm across, 0–423 mm up",
+  "- **Outlines:** line 72 rings, 1,530 straight (2,892 mm) / 159 curved (255 mm); text 177 rings, 2,102 straight (2,616 mm) / 447 curved (745 mm); tb 3 rings, 172 straight (367 mm) / 12 curved (18.4 mm)",
+  "- **Words (OCR):** 17 in 10 lines: WBS 841 PAOGAESS AVENUE; SCAABOAOUCH; ONTARIO M1H2x4 · WAAD-BECK SYSTEMS LTD_ · TeLEX: 0B5-25399 · TELEPHONE: 416/438-6550 · M463J · SUBMASTER · MODULE · ttp IIBSps · MANUFACTUAE OF PROFESSIONAL AUDIO EQUIPMENT · DESICN AND",
+  "- **Title block:** (48, 389)–(268, 425) mm: WBS 841 PAOGAESS AVENUE; SCAABOAOUCH; ONTARIO M1H2x4 · WAAD-BECK SYSTEMS LTD_ · TeLEX: 0B5-25399 · TELEPHONE: 416/438-6550"
+ ]
+}
