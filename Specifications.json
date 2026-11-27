@@ -1,0 +1,213 @@
+{
+ "module": "M463J",
+ "title": "M463J SUBMASTER MODULE",
+ "source": {
+  "file": "MANUALS/1972 - M463J - P002 - 1-1.jpg",
+  "page": 1
+ },
+ "ocr_quality": 0.97,
+ "read": "OCR of the technical data sheet; usual OCR slips put right, the rest as read: check against the page",
+ "specifications": [
+  {
+   "name": "Gain",
+   "key": "gain",
+   "text": "18 dB ±0.5 dB (with fader in 15 dB \"in-hand\" position).",
+   "quantities": [
+    {
+     "value": 18,
+     "unit": "dB"
+    },
+    {
+     "value": 0.5,
+     "unit": "dB",
+     "tolerance": true
+    },
+    {
+     "value": 15,
+     "unit": "dB"
+    }
+   ]
+  },
+  {
+   "name": "Frequency response",
+   "key": "frequency_response",
+   "text": "±0.25 dB from 20 Hz to 20 kHz",
+   "quantities": [
+    {
+     "value": 0.25,
+     "unit": "dB",
+     "tolerance": true
+    },
+    {
+     "value": 20,
+     "unit": "Hz"
+    },
+    {
+     "value": 20,
+     "unit": "kHz"
+    }
+   ]
+  },
+  {
+   "name": "Noise",
+   "key": "noise",
+   "text": "70 dB below +8 dBm nomina 1 output level (20 Hz to 20 kHz)",
+   "quantities": [
+    {
+     "value": 70,
+     "unit": "dB"
+    },
+    {
+     "value": 8,
+     "unit": "dBm"
+    },
+    {
+     "value": 20,
+     "unit": "Hz"
+    },
+    {
+     "value": 20,
+     "unit": "kHz"
+    }
+   ]
+  },
+  {
+   "name": "Harmonic distortion",
+   "key": "harmonic_distortion",
+   "text": "Less than 0.25% THD from 30 Hz to 20 kHz at +28 dBm or Less _ (Typically Tess than 0.05% across most of bandwidth.) Source Impedance: Summing: 30,000 ohms _ balanced. Input Impedance: Summing: Less than 5 ohms _ Output Impedance: Less than 100 ohms (at 8-109A output and DIRECT output) Less than 200 ohms at MONITOR output. Load Impedance: 600 ohms balanced (at insertion point and DIRECT output).",
+   "quantities": [
+    {
+     "value": 0.25,
+     "unit": "%"
+    },
+    {
+     "value": 30,
+     "unit": "Hz"
+    },
+    {
+     "value": 20,
+     "unit": "kHz"
+    },
+    {
+     "value": 28,
+     "unit": "dBm"
+    },
+    {
+     "value": 0.05,
+     "unit": "%"
+    },
+    {
+     "value": 30000,
+     "unit": "ohms"
+    },
+    {
+     "value": 5,
+     "unit": "ohms"
+    },
+    {
+     "value": 100,
+     "unit": "ohms"
+    },
+    {
+     "from": 8,
+     "to": 109,
+     "unit": "A"
+    },
+    {
+     "value": 200,
+     "unit": "ohms"
+    },
+    {
+     "value": 600,
+     "unit": "ohms"
+    }
+   ]
+  },
+  {
+   "name": "Output level",
+   "key": "output_level",
+   "text": "",
+   "items": [
+    {
+     "name": "At insertion point",
+     "text": "-10 dBm nomina]. At DIRECT output: +8 dBm nomina] +30 dBm maximum",
+     "quantities": [
+      {
+       "value": -10,
+       "unit": "dBm"
+      },
+      {
+       "value": 8,
+       "unit": "dBm"
+      },
+      {
+       "value": 30,
+       "unit": "dBm"
+      }
+     ],
+     "key": "at_insertion_point"
+    }
+   ]
+  },
+  {
+   "name": "Phasing",
+   "key": "phasing",
+   "text": "Input and output terminals designated by numbers are in phase"
+  },
+  {
+   "name": "Power requirements",
+   "key": "power_requirement",
+   "text": "+25 volts dc, 60 MA nominal, 200 mA maximum",
+   "quantities": [
+    {
+     "value": 25,
+     "unit": "volts dc"
+    },
+    {
+     "value": 60,
+     "unit": "MA"
+    },
+    {
+     "value": 200,
+     "unit": "mA"
+    }
+   ]
+  },
+  {
+   "name": "Ambient temperature",
+   "key": "ambient_temperature",
+   "text": "0 to 60 degrees Celsius _ Dimensions: 1.6\" wide X 7\" high X 6.5 \" deep (41 mm X 178 mm X 165 mm).",
+   "quantities": [
+    {
+     "from": 0,
+     "to": 60,
+     "unit": "degrees Celsius"
+    },
+    {
+     "value": 1.6,
+     "unit": "\""
+    },
+    {
+     "value": 7,
+     "unit": "\""
+    },
+    {
+     "value": 6.5,
+     "unit": "\""
+    },
+    {
+     "value": 41,
+     "unit": "mm"
+    },
+    {
+     "value": 178,
+     "unit": "mm"
+    },
+    {
+     "value": 165,
+     "unit": "mm"
+    }
+   ]
+  }
+ ]
+}

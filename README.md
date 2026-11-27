@@ -13,6 +13,90 @@ Ward-Beck Systems M463J, 1972|5. Wiki page: [M463J on WBSps.ca](https://wardbeck
 | [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 11 |
 | [OCR/](OCR/) | the note of every file: date, origin, title block, OCR text | 34 |
 
+<!-- module data: tools/module_specs.py, tools/forum_quotes.py -->
+
+## Specifications
+
+From the technical data sheet: [1972 - M463J - P002 - 1-1.jpg](MANUALS/1972%20-%20M463J%20-%20P002%20-%201-1.jpg) page 1 (read by OCR; check against the page). As data: [`Specifications.json`](Specifications.json).
+
+| | |
+|---|---|
+| **Gain** | 18 dB ±0.5 dB (with fader in 15 dB &quot;in-hand&quot; position). |
+| **Frequency response** | ±0.25 dB from 20 Hz to 20 kHz |
+| **Noise** | 70 dB below +8 dBm nomina 1 output level (20 Hz to 20 kHz) |
+| **Harmonic distortion** | Less than 0.25% THD from 30 Hz to 20 kHz at +28 dBm or Less _ (Typically Tess than 0.05% across most of bandwidth.) Source Impedance: Summing: 30,000 ohms _ balanced. Input Impedance: Summing: Less than 5 ohms _ Output Impedance: Less than 100 ohms (at 8-109A output and DIRECT output) Less than 200 ohms at MONITOR output. Load Impedance: 600 ohms balanced (at insertion point and DIRECT output). |
+| **Output level** |  |
+| &nbsp;&nbsp;At insertion point | -10 dBm nomina]. At DIRECT output: +8 dBm nomina] +30 dBm maximum |
+| **Phasing** | Input and output terminals designated by numbers are in phase |
+| **Power requirements** | +25 volts dc, 60 MA nominal, 200 mA maximum |
+| **Ambient temperature** | 0 to 60 degrees Celsius _ Dimensions: 1.6&quot; wide X 7&quot; high X 6.5 &quot; deep (41 mm X 178 mm X 165 mm). |
+
+## Circuit description
+
+From [1972 - M463J - Submaster Module (2).pdf](MANUALS/1972%20-%20M463J%20-%20Submaster%20Module%20(2).pdf) pages 3-6 (read by OCR; check against the pages). As data: [`CircuitDescription.json`](CircuitDescription.json).
+
+<details><summary>Read it</summary>
+
+The M463J is designed to accept combined or mixed feeds from previously assigned mixing channel inputs. The assigned mixing channel inputs are amplified and routed to the appropriate. points within the console system.
+
+Input and Summing Amplifier The signal originating from the external mlxlng network is applied to the summing current nodes of the input amplifier via edge connector pins I/A.
+
+Ql through Q8 form a summing amplifier comprising a balanced input and an unbalanced output. to correct for small system level variations, trim pot R7 is.i ncor por ate d as part of the preamplifier. The differential balance adjustment control R6 serves to minimize common mode type signals originating ahead of the amplifier. C12 couples the output of the summing amplifier to a low-pass filter consisting of R22, R23, R24, C13, C14, CIS and ZI. The 3 dB roll-off point is located at approximately 40 kHz.
+
+The output of ZI is coupled through C18 to the output amplifier 8-109A.
+
+8-109A Output Amplifier and INSERT The 8-109A amplifier raises the nominal signal level to 0 dBm. The output is actively balanced and fed to the &quot;insert point&quot; at pins 15/5.
+
+Pins 15/5 are usually connected to a normalled set of insert jack~, with the output side connected to the submaster fader. The fader output is returned to the module on pins 9/K. The feed for the PREFADE outputs is normally picked up at the mixing fader input and is returned to the module via pins 14/R. 8-109F Booster Amplifier
+
+This amplifier operates with again of 33 dB. It recovers the 15 dB &quot;in-hand&quot; loss incurred by the fader and provides
+
+aaditional gain to produce a nominal level of +8 dBm at its
+
+output.
+
+DIRECT Output and MON·nOR Output · The DIRECT output appears at pins 16/T. An additional isolated output is provided at pins 17/U. The latter output maybe utilized as a metering and/or monitor takeoff. Care should betaken to restrict loading of this output to 5k ohms or higher. Master Outputs and PAN Control A left and aright MASTER output are also being fed by the 8-109F output signal. They are routed via PAN switch SWI and PAN control R29 to R32, followed by two MASTER ASSIGNMENT SWITCHES SW5 and SW6. The master outputs are connected to the appropriate module output terminals via summing network resistors to be combined with feeds from other submaster mixing channels.
+
+Auxiliary Outputs In addition, a SOLO output is available via SW7, to allow selective monitoring of the particular submaster channel. Other feeds originating from the 8-109F amplifier are supplied to the POST FADE RS, FB and PA channels.
+
+PRE/POST Selector Switches and Level Controls PRE/POST selection of the RS, FB and PA channels is facilitated by switches SW2, SW3 and SW4 respectively; each switch is followed by its associated level control. The outputs of the level controls are fed to the summing outputs via individual assignment ~ switches. Following the assignment switches, these outputs are fed to their appropriate mixing &quot;buses via summing resistors. Control Functions A dc control contact closure is provided through operation of either one of the MASTER ASSIGNMENT switches SW5 or SW6. A further control contact is available on the SOLO switch SW7. Power Supply Decoupling
+
+An active power supply decoupling network consisting of Q9
+
+through Q14 provides isolation between the module and the ±25
+
+voJt supply rails. Transistors Q13 and Q14 monitor the supply current. In the event of excessive power supply demands, such
+
+as from component failure or amplifier overdrive, the current flow ing through Qll and Q12 will be limited.
+
+**PARTS LIST**
+
+PART DESCRIPTION MFG MFG PART NUMBER
+
+Capacitor 330 uF/6 V
+
+delete Kemet
+
+**.. T390E337M003AS**
+
+C5 10 pF Philips 2222-638-10109
+
+C7 15 pF 2222-638-10159 C8 3.3 pF 2222-638-09338
+
+CI0 10 uF/25 V Kemet T390CI06M025AS
+
+C12 33 uF/lO V T390D336MOI0AS C13 1500 pF Aselco CQ92-MC-152M C14 220 pF Philips 2222-630-03221 C15 33 pF.. 2222-638-58339 C16 10 pF 2222-638-10109 C17 4.7 pF 2222-638-094 78 C18 33 uF/lO V Kemet T390D336MOI0AS C19 0.022 uF Aselco CQ92 -MC-223M C20 22 uF/25 V Philips 426ETF22
+
+Diode Motorola
+
+**.. I N4003**
+
+Ql Transistor National 2N4401
+
+</details>
+
+<!-- /module data -->
+
 ## Mechanical
 
 _Mechanical drawings: front panels, cover plates, metalwork and hardware (-03- drawings), AutoCAD files, each with its `(EXTRACTED).svg` vectors; `<module> - front panel.svg` is the front panel as vectors._
