@@ -1,0 +1,626 @@
+{
+  "schema": "wbs-pinout/1",
+  "picture": "1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
+  "module": "M463J",
+  "applies_to": [
+    "M463J"
+  ],
+  "pinout": true,
+  "drawing": {
+    "number": "463-04-009",
+    "title": "M463J SUBMASTER MODULE CONNECTOR REAR VIEW",
+    "date": "1978-05",
+    "issue": "1",
+    "drawn": "E.R."
+  },
+  "connectors": [
+    {
+      "name": "P1",
+      "kind": "edge",
+      "contacts": 44,
+      "rows": "A-Z (no G, I, O, Q) opposite 1-22",
+      "view": "rear",
+      "part": null
+    }
+  ],
+  "pins": [
+    {
+      "connector": "P1",
+      "pin": "1",
+      "also": "A",
+      "as_drawn": "INPUT",
+      "signal": "INPUT",
+      "kind": "in",
+      "port": "INPUT",
+      "polarity": null
+    },
+    {
+      "connector": "P1",
+      "pin": "A",
+      "also": "1",
+      "as_drawn": "INPUT",
+      "signal": "INPUT",
+      "kind": "in",
+      "port": "INPUT",
+      "polarity": null
+    },
+    {
+      "connector": "P1",
+      "pin": "2",
+      "also": "B",
+      "as_drawn": "SHIELD",
+      "signal": "SHIELD",
+      "kind": "shield",
+      "port": null,
+      "polarity": "shield"
+    },
+    {
+      "connector": "P1",
+      "pin": "B",
+      "also": "2",
+      "as_drawn": "SHIELD",
+      "signal": "SHIELD",
+      "kind": "shield",
+      "port": null,
+      "polarity": "shield"
+    },
+    {
+      "connector": "P1",
+      "pin": "3",
+      "also": "C",
+      "as_drawn": "PA OUT",
+      "signal": "PA OUT",
+      "kind": "out",
+      "port": "PA OUT",
+      "polarity": null
+    },
+    {
+      "connector": "P1",
+      "pin": "C",
+      "also": "3",
+      "as_drawn": "PA OUT",
+      "signal": "PA OUT",
+      "kind": "out",
+      "port": "PA OUT",
+      "polarity": null
+    },
+    {
+      "connector": "P1",
+      "pin": "4",
+      "also": "D",
+      "as_drawn": "FB 2 OUT",
+      "signal": "FB 2 OUT",
+      "kind": "out",
+      "port": "FB 2 OUT",
+      "polarity": null
+    },
+    {
+      "connector": "P1",
+      "pin": "D",
+      "also": "4",
+      "as_drawn": "FB 2 OUT",
+      "signal": "FB 2 OUT",
+      "kind": "out",
+      "port": "FB 2 OUT",
+      "polarity": null
+    },
+    {
+      "connector": "P1",
+      "pin": "5",
+      "also": "E",
+      "as_drawn": "FB 1 OUT",
+      "signal": "FB 1 OUT",
+      "kind": "out",
+      "port": "FB 1 OUT",
+      "polarity": null
+    },
+    {
+      "connector": "P1",
+      "pin": "E",
+      "also": "5",
+      "as_drawn": "FB 1 OUT",
+      "signal": "FB 1 OUT",
+      "kind": "out",
+      "port": "FB 1 OUT",
+      "polarity": null
+    },
+    {
+      "connector": "P1",
+      "pin": "6",
+      "also": "F",
+      "as_drawn": "RS 2 OUT",
+      "signal": "RS 2 OUT",
+      "kind": "out",
+      "port": "RS 2 OUT",
+      "polarity": null
+    },
+    {
+      "connector": "P1",
+      "pin": "F",
+      "also": "6",
+      "as_drawn": "RS 2 OUT",
+      "signal": "RS 2 OUT",
+      "kind": "out",
+      "port": "RS 2 OUT",
+      "polarity": null
+    },
+    {
+      "connector": "P1",
+      "pin": "7",
+      "also": "H",
+      "as_drawn": "RS 1 OUT",
+      "signal": "RS 1 OUT",
+      "kind": "out",
+      "port": "RS 1 OUT",
+      "polarity": null
+    },
+    {
+      "connector": "P1",
+      "pin": "H",
+      "also": "7",
+      "as_drawn": "RS 1 OUT",
+      "signal": "RS 1 OUT",
+      "kind": "out",
+      "port": "RS 1 OUT",
+      "polarity": null
+    },
+    {
+      "connector": "P1",
+      "pin": "8",
+      "also": "J",
+      "as_drawn": "SOLO OUT",
+      "signal": "SOLO OUT",
+      "kind": "out",
+      "port": "SOLO OUT",
+      "polarity": null
+    },
+    {
+      "connector": "P1",
+      "pin": "J",
+      "also": "8",
+      "as_drawn": "SOLO OUT",
+      "signal": "SOLO OUT",
+      "kind": "out",
+      "port": "SOLO OUT",
+      "polarity": null
+    },
+    {
+      "connector": "P1",
+      "pin": "9",
+      "also": "K",
+      "as_drawn": "FADER OUT",
+      "signal": "FADER OUT",
+      "kind": "insert_send",
+      "port": "FADER OUT",
+      "polarity": null
+    },
+    {
+      "connector": "P1",
+      "pin": "K",
+      "also": "9",
+      "as_drawn": "FADER OUT",
+      "signal": "FADER OUT",
+      "kind": "insert_send",
+      "port": "FADER OUT",
+      "polarity": null
+    },
+    {
+      "connector": "P1",
+      "pin": "10",
+      "also": "L",
+      "as_drawn": "SHIELD",
+      "signal": "SHIELD",
+      "kind": "shield",
+      "port": null,
+      "polarity": "shield"
+    },
+    {
+      "connector": "P1",
+      "pin": "L",
+      "also": "10",
+      "as_drawn": "SHIELD",
+      "signal": "SHIELD",
+      "kind": "shield",
+      "port": null,
+      "polarity": "shield"
+    },
+    {
+      "connector": "P1",
+      "pin": "11",
+      "also": "M",
+      "as_drawn": "M1 OUT",
+      "signal": "M1 OUT",
+      "kind": "out",
+      "port": "M1 OUT",
+      "polarity": null
+    },
+    {
+      "connector": "P1",
+      "pin": "M",
+      "also": "11",
+      "as_drawn": "M1 OUT",
+      "signal": "M1 OUT",
+      "kind": "out",
+      "port": "M1 OUT",
+      "polarity": null
+    },
+    {
+      "connector": "P1",
+      "pin": "12",
+      "also": "N",
+      "as_drawn": "M2 OUT",
+      "signal": "M2 OUT",
+      "kind": "out",
+      "port": "M2 OUT",
+      "polarity": null
+    },
+    {
+      "connector": "P1",
+      "pin": "N",
+      "also": "12",
+      "as_drawn": "M2 OUT",
+      "signal": "M2 OUT",
+      "kind": "out",
+      "port": "M2 OUT",
+      "polarity": null
+    },
+    {
+      "connector": "P1",
+      "pin": "13",
+      "also": "P",
+      "as_drawn": "SHIELD",
+      "signal": "SHIELD",
+      "kind": "shield",
+      "port": null,
+      "polarity": "shield"
+    },
+    {
+      "connector": "P1",
+      "pin": "P",
+      "also": "13",
+      "as_drawn": "SHIELD",
+      "signal": "SHIELD",
+      "kind": "shield",
+      "port": null,
+      "polarity": "shield"
+    },
+    {
+      "connector": "P1",
+      "pin": "14",
+      "also": "R",
+      "as_drawn": "PREFADE IN",
+      "signal": "PREFADE IN",
+      "kind": "in",
+      "port": "PREFADE IN",
+      "polarity": null
+    },
+    {
+      "connector": "P1",
+      "pin": "R",
+      "also": "14",
+      "as_drawn": "PREFADE IN",
+      "signal": "PREFADE IN",
+      "kind": "in",
+      "port": "PREFADE IN",
+      "polarity": null
+    },
+    {
+      "connector": "P1",
+      "pin": "15",
+      "also": "S",
+      "as_drawn": "FADER IN",
+      "signal": "FADER IN",
+      "kind": "insert_return",
+      "port": "FADER IN",
+      "polarity": null
+    },
+    {
+      "connector": "P1",
+      "pin": "S",
+      "also": "15",
+      "as_drawn": "FADER IN",
+      "signal": "FADER IN",
+      "kind": "insert_return",
+      "port": "FADER IN",
+      "polarity": null
+    },
+    {
+      "connector": "P1",
+      "pin": "16",
+      "also": "T",
+      "as_drawn": "DIRECT OUT",
+      "signal": "DIRECT OUT",
+      "kind": "out",
+      "port": "DIRECT OUT",
+      "polarity": null
+    },
+    {
+      "connector": "P1",
+      "pin": "T",
+      "also": "16",
+      "as_drawn": "DIRECT OUT",
+      "signal": "DIRECT OUT",
+      "kind": "out",
+      "port": "DIRECT OUT",
+      "polarity": null
+    },
+    {
+      "connector": "P1",
+      "pin": "17",
+      "also": "U",
+      "as_drawn": "MONITOR OUT",
+      "signal": "MONITOR OUT",
+      "kind": "out",
+      "port": "MONITOR OUT",
+      "polarity": null
+    },
+    {
+      "connector": "P1",
+      "pin": "U",
+      "also": "17",
+      "as_drawn": "MONITOR OUT",
+      "signal": "MONITOR OUT",
+      "kind": "out",
+      "port": "MONITOR OUT",
+      "polarity": null
+    },
+    {
+      "connector": "P1",
+      "pin": "18",
+      "also": "V",
+      "as_drawn": "CTL COM",
+      "signal": "CONTROL COMMON",
+      "kind": "ground",
+      "port": null,
+      "polarity": null
+    },
+    {
+      "connector": "P1",
+      "pin": "V",
+      "also": "18",
+      "as_drawn": "SOLO CTL",
+      "signal": "SOLO CONTROL",
+      "kind": "control_in",
+      "port": "SOLO CTL",
+      "polarity": null
+    },
+    {
+      "connector": "P1",
+      "pin": "19",
+      "also": "W",
+      "as_drawn": "-25V",
+      "signal": "-25 V",
+      "kind": "power",
+      "port": null,
+      "polarity": null
+    },
+    {
+      "connector": "P1",
+      "pin": "W",
+      "also": "19",
+      "as_drawn": "M1 CTL",
+      "signal": "M1 CONTROL",
+      "kind": "control_out",
+      "port": "M1 CTL",
+      "polarity": null
+    },
+    {
+      "connector": "P1",
+      "pin": "20",
+      "also": "X",
+      "as_drawn": "±COMMON",
+      "signal": "COMMON",
+      "kind": "ground",
+      "port": null,
+      "polarity": null
+    },
+    {
+      "connector": "P1",
+      "pin": "X",
+      "also": "20",
+      "as_drawn": "M2 CTL",
+      "signal": "M2 CONTROL",
+      "kind": "control_out",
+      "port": "M2 CTL",
+      "polarity": null
+    },
+    {
+      "connector": "P1",
+      "pin": "21",
+      "also": "Y",
+      "as_drawn": "+25V",
+      "signal": "+25 V",
+      "kind": "power",
+      "port": null,
+      "polarity": null
+    },
+    {
+      "connector": "P1",
+      "pin": "Y",
+      "also": "21",
+      "as_drawn": "M1/M2 CTL IN",
+      "signal": "M1/M2 CONTROL IN",
+      "kind": "control_in",
+      "port": "M1/M2 CTL IN",
+      "polarity": null
+    },
+    {
+      "connector": "P1",
+      "pin": "22",
+      "also": "Z",
+      "as_drawn": "CHASSIS GND",
+      "signal": "CHASSIS GROUND",
+      "kind": "ground",
+      "port": null,
+      "polarity": null
+    },
+    {
+      "connector": "P1",
+      "pin": "Z",
+      "also": "22",
+      "as_drawn": "N/C",
+      "signal": "N/C",
+      "kind": "nc",
+      "port": null,
+      "polarity": null
+    }
+  ],
+  "ports": [
+    {
+      "name": "INPUT",
+      "dir": "in",
+      "pins": {
+        "a": "P1-A",
+        "b": "P1-1"
+      }
+    },
+    {
+      "name": "PA OUT",
+      "dir": "out",
+      "pins": {
+        "a": "P1-C",
+        "b": "P1-3"
+      }
+    },
+    {
+      "name": "FB 2 OUT",
+      "dir": "out",
+      "pins": {
+        "a": "P1-D",
+        "b": "P1-4"
+      }
+    },
+    {
+      "name": "FB 1 OUT",
+      "dir": "out",
+      "pins": {
+        "a": "P1-E",
+        "b": "P1-5"
+      }
+    },
+    {
+      "name": "RS 2 OUT",
+      "dir": "out",
+      "pins": {
+        "a": "P1-F",
+        "b": "P1-6"
+      }
+    },
+    {
+      "name": "RS 1 OUT",
+      "dir": "out",
+      "pins": {
+        "a": "P1-H",
+        "b": "P1-7"
+      }
+    },
+    {
+      "name": "SOLO OUT",
+      "dir": "out",
+      "pins": {
+        "a": "P1-J",
+        "b": "P1-8"
+      }
+    },
+    {
+      "name": "FADER OUT",
+      "dir": "insert_send",
+      "pins": {
+        "a": "P1-K",
+        "b": "P1-9"
+      }
+    },
+    {
+      "name": "M1 OUT",
+      "dir": "out",
+      "pins": {
+        "a": "P1-M",
+        "b": "P1-11"
+      }
+    },
+    {
+      "name": "M2 OUT",
+      "dir": "out",
+      "pins": {
+        "a": "P1-N",
+        "b": "P1-12"
+      }
+    },
+    {
+      "name": "PREFADE IN",
+      "dir": "in",
+      "pins": {
+        "a": "P1-R",
+        "b": "P1-14"
+      }
+    },
+    {
+      "name": "FADER IN",
+      "dir": "insert_return",
+      "pins": {
+        "a": "P1-S",
+        "b": "P1-15"
+      }
+    },
+    {
+      "name": "DIRECT OUT",
+      "dir": "out",
+      "pins": {
+        "a": "P1-T",
+        "b": "P1-16"
+      }
+    },
+    {
+      "name": "MONITOR OUT",
+      "dir": "out",
+      "pins": {
+        "a": "P1-U",
+        "b": "P1-17"
+      }
+    },
+    {
+      "name": "SOLO CTL",
+      "dir": "control_in",
+      "pins": {
+        "ctl": "P1-V"
+      }
+    },
+    {
+      "name": "M1 CTL",
+      "dir": "control_out",
+      "pins": {
+        "ctl": "P1-W"
+      }
+    },
+    {
+      "name": "M2 CTL",
+      "dir": "control_out",
+      "pins": {
+        "ctl": "P1-X"
+      }
+    },
+    {
+      "name": "M1/M2 CTL IN",
+      "dir": "control_in",
+      "pins": {
+        "ctl": "P1-Y"
+      }
+    }
+  ],
+  "inserts": [
+    {
+      "name": "FADER INSERT",
+      "send": "FADER OUT",
+      "return": "FADER IN",
+      "normalled": null,
+      "note": "FADER OUT (K/9) and FADER IN (S/15): fader send/return. No normal or strap shown."
+    }
+  ],
+  "straps": [],
+  "unread": [
+    "Checker's signature (looks like 'Relle')",
+    "Direction (in/out) of M1 CTL and M2 CTL not stated"
+  ],
+  "confidence": "high",
+  "notes": "Double-sided 22-way edge connector A|1 ... Z|22, each side labelled separately (letters left, numbers right), recorded as separate contacts. Rows 1-17 carry the same label on both sides; whether that is the two legs of a balanced line or the same signal on both faces is not stated (port keys a/b = letter/number contact). Rows 18-22 differ: V SOLO CTL / 18 CTL COM, W M1 CTL / 19 -25V, X M2 CTL / 20 ±COMMON, Y M1/M2 CTL IN / 21 +25V, Z N/C / 22 CHASSIS GND. SHIELD rows B/2, L/10, P/13 are not tied to a specific port by the drawing (likely input, fader/M1-M2 and prefade groups by position). Direction of M1 CTL / M2 CTL not drawn (recorded control_out). Title block date is MAY 1978 although the file name says 1972. Legend: NC not connected."
+}

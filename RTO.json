@@ -3,247 +3,956 @@
  "connector": "RTO-144",
  "type": "M463J - Submaster Module",
  "series": null,
- "contacts": "22 contacts",
+ "connectors": [
+  {
+   "name": "P1",
+   "kind": "edge",
+   "contacts": 44,
+   "rows": "A-Z (no G, I, O, Q) opposite 1-22",
+   "view": "rear",
+   "part": null
+  }
+ ],
  "verified": null,
- "derived": false,
- "variant_of": null,
+ "built_from": {
+  "pictures": [
+   "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+   "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+  ],
+  "sheet": "Engineering/RTO-144/M463J/M463J.rto144.json",
+  "sheet_agrees": null
+ },
  "pins": [
   {
+   "connector": "P1",
    "pin": "1",
+   "ref": "1",
+   "also": "A",
+   "same_row": null,
    "signal": "INPUT",
    "kind": "in",
-   "pair": null,
+   "port": "INPUT",
    "polarity": null,
-   "confidence": "medium",
-   "read_from": "drawing rows",
-   "file": "Modules/SUMMING/M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
-   "page": 1
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
   },
   {
+   "connector": "P1",
    "pin": "2",
+   "ref": "2",
+   "also": "B",
+   "same_row": null,
    "signal": "SHIELD",
-   "kind": "ground",
-   "pair": null,
-   "polarity": null,
-   "confidence": "medium",
-   "read_from": "drawing rows",
-   "file": "Modules/SUMMING/M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
-   "page": 1
+   "kind": "shield",
+   "port": null,
+   "polarity": "shield",
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
   },
   {
+   "connector": "P1",
    "pin": "3",
+   "ref": "3",
+   "also": "C",
+   "same_row": null,
    "signal": "PA OUT",
    "kind": "out",
-   "pair": null,
+   "port": "PA OUT",
    "polarity": null,
-   "confidence": "medium",
-   "read_from": "drawing rows",
-   "file": "Modules/SUMMING/M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
-   "page": 1
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
   },
   {
+   "connector": "P1",
    "pin": "4",
-   "signal": "FB OUT",
+   "ref": "4",
+   "also": "D",
+   "same_row": null,
+   "signal": "FB 2 OUT",
    "kind": "out",
-   "pair": null,
+   "port": "FB 2 OUT",
    "polarity": null,
-   "confidence": "medium",
-   "read_from": "drawing rows",
-   "file": "Modules/SUMMING/M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
-   "page": 1
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
   },
   {
+   "connector": "P1",
    "pin": "5",
-   "signal": "FB OUT",
+   "ref": "5",
+   "also": "E",
+   "same_row": null,
+   "signal": "FB 1 OUT",
    "kind": "out",
-   "pair": null,
+   "port": "FB 1 OUT",
    "polarity": null,
-   "confidence": "medium",
-   "read_from": "drawing rows",
-   "file": "Modules/SUMMING/M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
-   "page": 1
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
   },
   {
+   "connector": "P1",
    "pin": "6",
-   "signal": "RS OUT",
+   "ref": "6",
+   "also": "F",
+   "same_row": null,
+   "signal": "RS 2 OUT",
    "kind": "out",
-   "pair": null,
+   "port": "RS 2 OUT",
    "polarity": null,
-   "confidence": "medium",
-   "read_from": "drawing rows",
-   "file": "Modules/SUMMING/M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
-   "page": 1
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
   },
   {
+   "connector": "P1",
    "pin": "7",
-   "signal": "RS OUT",
+   "ref": "7",
+   "also": "H",
+   "same_row": null,
+   "signal": "RS 1 OUT",
    "kind": "out",
-   "pair": null,
+   "port": "RS 1 OUT",
    "polarity": null,
-   "confidence": "medium",
-   "read_from": "drawing rows",
-   "file": "Modules/SUMMING/M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
-   "page": 1
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
   },
   {
+   "connector": "P1",
    "pin": "8",
+   "ref": "8",
+   "also": "J",
+   "same_row": null,
    "signal": "SOLO OUT",
    "kind": "out",
-   "pair": null,
+   "port": "SOLO OUT",
    "polarity": null,
-   "confidence": "medium",
-   "read_from": "drawing rows",
-   "file": "Modules/SUMMING/M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
-   "page": 1
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
   },
   {
+   "connector": "P1",
    "pin": "9",
+   "ref": "9",
+   "also": "K",
+   "same_row": null,
    "signal": "FADER OUT",
-   "kind": "out",
-   "pair": null,
+   "kind": "insert_send",
+   "port": "FADER OUT",
    "polarity": null,
-   "confidence": "medium",
-   "read_from": "drawing rows",
-   "file": "Modules/SUMMING/M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
-   "page": 1
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
   },
   {
+   "connector": "P1",
    "pin": "10",
+   "ref": "10",
+   "also": "L",
+   "same_row": null,
    "signal": "SHIELD",
-   "kind": "ground",
-   "pair": null,
-   "polarity": null,
-   "confidence": "medium",
-   "read_from": "drawing rows",
-   "file": "Modules/SUMMING/M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
-   "page": 1
+   "kind": "shield",
+   "port": null,
+   "polarity": "shield",
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
   },
   {
+   "connector": "P1",
    "pin": "11",
-   "signal": "MI OUT",
+   "ref": "11",
+   "also": "M",
+   "same_row": null,
+   "signal": "M1 OUT",
    "kind": "out",
-   "pair": null,
+   "port": "M1 OUT",
    "polarity": null,
-   "confidence": "medium",
-   "read_from": "drawing rows",
-   "file": "Modules/SUMMING/M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
-   "page": 1
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
   },
   {
+   "connector": "P1",
+   "pin": "12",
+   "ref": "12",
+   "also": "N",
+   "same_row": null,
+   "signal": "M2 OUT",
+   "kind": "out",
+   "port": "M2 OUT",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
    "pin": "13",
+   "ref": "13",
+   "also": "P",
+   "same_row": null,
    "signal": "SHIELD",
-   "kind": "ground",
-   "pair": null,
-   "polarity": null,
-   "confidence": "medium",
-   "read_from": "drawing rows",
-   "file": "Modules/SUMMING/M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
-   "page": 1
+   "kind": "shield",
+   "port": null,
+   "polarity": "shield",
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
   },
   {
+   "connector": "P1",
    "pin": "14",
+   "ref": "14",
+   "also": "R",
+   "same_row": null,
    "signal": "PREFADE IN",
    "kind": "in",
-   "pair": null,
+   "port": "PREFADE IN",
    "polarity": null,
-   "confidence": "medium",
-   "read_from": "drawing rows",
-   "file": "Modules/SUMMING/M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
-   "page": 1
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
   },
   {
+   "connector": "P1",
    "pin": "15",
+   "ref": "15",
+   "also": "S",
+   "same_row": null,
    "signal": "FADER IN",
-   "kind": "in",
-   "pair": null,
+   "kind": "insert_return",
+   "port": "FADER IN",
    "polarity": null,
-   "confidence": "medium",
-   "read_from": "drawing rows",
-   "file": "Modules/SUMMING/M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
-   "page": 1
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
   },
   {
+   "connector": "P1",
    "pin": "16",
+   "ref": "16",
+   "also": "T",
+   "same_row": null,
    "signal": "DIRECT OUT",
    "kind": "out",
-   "pair": null,
+   "port": "DIRECT OUT",
    "polarity": null,
-   "confidence": "medium",
-   "read_from": "drawing rows",
-   "file": "Modules/SUMMING/M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
-   "page": 1
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
   },
   {
+   "connector": "P1",
    "pin": "17",
+   "ref": "17",
+   "also": "U",
+   "same_row": null,
    "signal": "MONITOR OUT",
    "kind": "out",
-   "pair": null,
+   "port": "MONITOR OUT",
    "polarity": null,
-   "confidence": "medium",
-   "read_from": "drawing rows",
-   "file": "Modules/SUMMING/M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
-   "page": 1
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
   },
   {
+   "connector": "P1",
    "pin": "18",
-   "signal": "CTL COM",
+   "ref": "18",
+   "also": "V",
+   "same_row": null,
+   "signal": "CONTROL COMMON",
    "kind": "ground",
-   "pair": null,
+   "port": null,
    "polarity": null,
-   "confidence": "medium",
-   "read_from": "drawing rows",
-   "file": "Modules/SUMMING/M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
-   "page": 1
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
   },
   {
+   "connector": "P1",
    "pin": "19",
-   "signal": "25V",
-   "kind": "other",
-   "pair": null,
-   "polarity": null,
-   "confidence": "medium",
-   "read_from": "drawing rows",
-   "file": "Modules/SUMMING/M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
-   "page": 1
-  },
-  {
-   "pin": "20",
-   "signal": "±COMMON",
-   "kind": "ground",
-   "pair": null,
-   "polarity": null,
-   "confidence": "medium",
-   "read_from": "drawing rows",
-   "file": "Modules/SUMMING/M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
-   "page": 1
-  },
-  {
-   "pin": "21",
-   "signal": "+25V",
+   "ref": "19",
+   "also": "W",
+   "same_row": null,
+   "signal": "-25 V",
    "kind": "power",
-   "pair": null,
+   "port": null,
    "polarity": null,
-   "confidence": "medium",
-   "read_from": "drawing rows",
-   "file": "Modules/SUMMING/M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
-   "page": 1
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
   },
   {
-   "pin": "22",
-   "signal": "CHASSIS GND",
+   "connector": "P1",
+   "pin": "20",
+   "ref": "20",
+   "also": "X",
+   "same_row": null,
+   "signal": "COMMON",
    "kind": "ground",
-   "pair": null,
+   "port": null,
    "polarity": null,
-   "confidence": "medium",
-   "read_from": "drawing rows",
-   "file": "Modules/SUMMING/M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg",
-   "page": 1
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "21",
+   "ref": "21",
+   "also": "Y",
+   "same_row": null,
+   "signal": "+25 V",
+   "kind": "power",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "22",
+   "ref": "22",
+   "also": "Z",
+   "same_row": null,
+   "signal": "CHASSIS GROUND",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "A",
+   "ref": "A",
+   "also": "1",
+   "same_row": null,
+   "signal": "INPUT",
+   "kind": "in",
+   "port": "INPUT",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "B",
+   "ref": "B",
+   "also": "2",
+   "same_row": null,
+   "signal": "SHIELD",
+   "kind": "shield",
+   "port": null,
+   "polarity": "shield",
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "C",
+   "ref": "C",
+   "also": "3",
+   "same_row": null,
+   "signal": "PA OUT",
+   "kind": "out",
+   "port": "PA OUT",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "D",
+   "ref": "D",
+   "also": "4",
+   "same_row": null,
+   "signal": "FB 2 OUT",
+   "kind": "out",
+   "port": "FB 2 OUT",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "E",
+   "ref": "E",
+   "also": "5",
+   "same_row": null,
+   "signal": "FB 1 OUT",
+   "kind": "out",
+   "port": "FB 1 OUT",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "F",
+   "ref": "F",
+   "also": "6",
+   "same_row": null,
+   "signal": "RS 2 OUT",
+   "kind": "out",
+   "port": "RS 2 OUT",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "H",
+   "ref": "H",
+   "also": "7",
+   "same_row": null,
+   "signal": "RS 1 OUT",
+   "kind": "out",
+   "port": "RS 1 OUT",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "J",
+   "ref": "J",
+   "also": "8",
+   "same_row": null,
+   "signal": "SOLO OUT",
+   "kind": "out",
+   "port": "SOLO OUT",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "K",
+   "ref": "K",
+   "also": "9",
+   "same_row": null,
+   "signal": "FADER OUT",
+   "kind": "insert_send",
+   "port": "FADER OUT",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "L",
+   "ref": "L",
+   "also": "10",
+   "same_row": null,
+   "signal": "SHIELD",
+   "kind": "shield",
+   "port": null,
+   "polarity": "shield",
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "M",
+   "ref": "M",
+   "also": "11",
+   "same_row": null,
+   "signal": "M1 OUT",
+   "kind": "out",
+   "port": "M1 OUT",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "N",
+   "ref": "N",
+   "also": "12",
+   "same_row": null,
+   "signal": "M2 OUT",
+   "kind": "out",
+   "port": "M2 OUT",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "P",
+   "ref": "P",
+   "also": "13",
+   "same_row": null,
+   "signal": "SHIELD",
+   "kind": "shield",
+   "port": null,
+   "polarity": "shield",
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "R",
+   "ref": "R",
+   "also": "14",
+   "same_row": null,
+   "signal": "PREFADE IN",
+   "kind": "in",
+   "port": "PREFADE IN",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "S",
+   "ref": "S",
+   "also": "15",
+   "same_row": null,
+   "signal": "FADER IN",
+   "kind": "insert_return",
+   "port": "FADER IN",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "T",
+   "ref": "T",
+   "also": "16",
+   "same_row": null,
+   "signal": "DIRECT OUT",
+   "kind": "out",
+   "port": "DIRECT OUT",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "U",
+   "ref": "U",
+   "also": "17",
+   "same_row": null,
+   "signal": "MONITOR OUT",
+   "kind": "out",
+   "port": "MONITOR OUT",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "V",
+   "ref": "V",
+   "also": "18",
+   "same_row": null,
+   "signal": "SOLO CONTROL",
+   "kind": "control_in",
+   "port": "SOLO CTL",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "W",
+   "ref": "W",
+   "also": "19",
+   "same_row": null,
+   "signal": "M1 CONTROL",
+   "kind": "control_out",
+   "port": "M1 CTL",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "X",
+   "ref": "X",
+   "also": "20",
+   "same_row": null,
+   "signal": "M2 CONTROL",
+   "kind": "control_out",
+   "port": "M2 CTL",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "Y",
+   "ref": "Y",
+   "also": "21",
+   "same_row": null,
+   "signal": "M1/M2 CONTROL IN",
+   "kind": "control_in",
+   "port": "M1/M2 CTL IN",
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "Z",
+   "ref": "Z",
+   "also": "22",
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json",
+    "M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.pinout.json"
+   ],
+   "sheet": null
+  }
+ ],
+ "ports": [
+  {
+   "name": "INPUT",
+   "dir": "in",
+   "pins": {
+    "a": "P1-A",
+    "b": "P1-1"
+   }
+  },
+  {
+   "name": "PA OUT",
+   "dir": "out",
+   "pins": {
+    "a": "P1-C",
+    "b": "P1-3"
+   }
+  },
+  {
+   "name": "FB 2 OUT",
+   "dir": "out",
+   "pins": {
+    "a": "P1-D",
+    "b": "P1-4"
+   }
+  },
+  {
+   "name": "FB 1 OUT",
+   "dir": "out",
+   "pins": {
+    "a": "P1-E",
+    "b": "P1-5"
+   }
+  },
+  {
+   "name": "RS 2 OUT",
+   "dir": "out",
+   "pins": {
+    "a": "P1-F",
+    "b": "P1-6"
+   }
+  },
+  {
+   "name": "RS 1 OUT",
+   "dir": "out",
+   "pins": {
+    "a": "P1-H",
+    "b": "P1-7"
+   }
+  },
+  {
+   "name": "SOLO OUT",
+   "dir": "out",
+   "pins": {
+    "a": "P1-J",
+    "b": "P1-8"
+   }
+  },
+  {
+   "name": "FADER OUT",
+   "dir": "insert_send",
+   "pins": {
+    "a": "P1-K",
+    "b": "P1-9"
+   }
+  },
+  {
+   "name": "M1 OUT",
+   "dir": "out",
+   "pins": {
+    "a": "P1-M",
+    "b": "P1-11"
+   }
+  },
+  {
+   "name": "M2 OUT",
+   "dir": "out",
+   "pins": {
+    "a": "P1-N",
+    "b": "P1-12"
+   }
+  },
+  {
+   "name": "PREFADE IN",
+   "dir": "in",
+   "pins": {
+    "a": "P1-R",
+    "b": "P1-14"
+   }
+  },
+  {
+   "name": "FADER IN",
+   "dir": "insert_return",
+   "pins": {
+    "a": "P1-S",
+    "b": "P1-15"
+   }
+  },
+  {
+   "name": "DIRECT OUT",
+   "dir": "out",
+   "pins": {
+    "a": "P1-T",
+    "b": "P1-16"
+   }
+  },
+  {
+   "name": "MONITOR OUT",
+   "dir": "out",
+   "pins": {
+    "a": "P1-U",
+    "b": "P1-17"
+   }
+  },
+  {
+   "name": "SOLO CTL",
+   "dir": "control_in",
+   "pins": {
+    "ctl": "P1-V"
+   }
+  },
+  {
+   "name": "M1 CTL",
+   "dir": "control_out",
+   "pins": {
+    "ctl": "P1-W"
+   }
+  },
+  {
+   "name": "M2 CTL",
+   "dir": "control_out",
+   "pins": {
+    "ctl": "P1-X"
+   }
+  },
+  {
+   "name": "M1/M2 CTL IN",
+   "dir": "control_in",
+   "pins": {
+    "ctl": "P1-Y"
+   }
+  }
+ ],
+ "inserts": [
+  {
+   "name": "FADER INSERT",
+   "send": "FADER OUT",
+   "return": "FADER IN",
+   "normalled": null,
+   "note": "FADER OUT (K/9) and FADER IN (S/15): fader send/return. No normal or strap shown."
   }
  ],
  "straps": [],
- "power": [],
- "sources": [
-  "Engineering/RTO-144/M463J/M463J.rto144.json",
-  "Modules/SUMMING/M463J/PINOUTS/1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg"
+ "conflicts": [
+  {
+   "pin": "P1-W",
+   "kept": "M1 CONTROL (control_out)",
+   "other": "M1 CONTROL (control_in)",
+   "from": "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json"
+  },
+  {
+   "pin": "P1-X",
+   "kept": "M2 CONTROL (control_out)",
+   "other": "M2 CONTROL (control_in)",
+   "from": "M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json"
+  }
+ ],
+ "to_check": [
+  {
+   "what": "disagree",
+   "pin": "P1-W",
+   "detail": "kept M1 CONTROL (control_out); M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json says M1 CONTROL (control_in)"
+  },
+  {
+   "what": "disagree",
+   "pin": "P1-X",
+   "detail": "kept M2 CONTROL (control_out); M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json says M2 CONTROL (control_in)"
+  },
+  {
+   "what": "insert guessed",
+   "pin": null,
+   "detail": "Direction (in/out) of M1 CTL and M2 CTL not stated FADER OUT (K/9) and FADER IN (S/15): fader send/return. (M463J: 1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg)"
+  }
  ]
 }

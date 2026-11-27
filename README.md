@@ -129,31 +129,62 @@ Not on Google Drive yet: `M463J - RTO-144 Connections.pdf`
 
 ## RTO-144 pinout
 
-22 contacts. Every contact, with where it was read: [`RTO.json`](RTO.json).
+Read from 2 pinout pictures (each its own `.pinout.json` beside it); 2 to check (`conflicts`). Every contact, with where it was read: [`RTO.json`](RTO.json). How a picture becomes this table: [the pinout decision tree](https://github.com/WardBeckSystems/WBSps.ca/blob/main/2026/Engineering/PINOUTS.md).
 
-| Pin | Signal | Kind | Pair | Confidence |
+**To check:**
+
+- disagree P1-W: kept M1 CONTROL (control_out); M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json says M1 CONTROL (control_in)
+- disagree P1-X: kept M2 CONTROL (control_out); M463AC/PINOUTS/1986 - M463AC - 463-04-009 - CONNECTOR REAR VIEW.pinout.json says M2 CONTROL (control_in)
+- insert guessed: Direction (in/out) of M1 CTL and M2 CTL not stated FADER OUT (K/9) and FADER IN (S/15): fader send/return. (M463J: 1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg)
+
+**Inserts:** FADER INSERT: FADER OUT → FADER IN
+
+| Pin | Signal | Kind | Port | Confidence |
 |---|---|---|---|---|
-| 1 | INPUT | in |  | medium |
-| 2 | SHIELD | ground |  | medium |
-| 3 | PA OUT | out |  | medium |
-| 4 | FB OUT | out |  | medium |
-| 5 | FB OUT | out |  | medium |
-| 6 | RS OUT | out |  | medium |
-| 7 | RS OUT | out |  | medium |
-| 8 | SOLO OUT | out |  | medium |
-| 9 | FADER OUT | out |  | medium |
-| 10 | SHIELD | ground |  | medium |
-| 11 | MI OUT | out |  | medium |
-| 13 | SHIELD | ground |  | medium |
-| 14 | PREFADE IN | in |  | medium |
-| 15 | FADER IN | in |  | medium |
-| 16 | DIRECT OUT | out |  | medium |
-| 17 | MONITOR OUT | out |  | medium |
-| 18 | CTL COM | ground |  | medium |
-| 19 | 25V | other |  | medium |
-| 20 | ±COMMON | ground |  | medium |
-| 21 | +25V | power |  | medium |
-| 22 | CHASSIS GND | ground |  | medium |
+| 1 | INPUT | in | INPUT | high |
+| 2 | SHIELD | shield | shield | high |
+| 3 | PA OUT | out | PA OUT | high |
+| 4 | FB 2 OUT | out | FB 2 OUT | high |
+| 5 | FB 1 OUT | out | FB 1 OUT | high |
+| 6 | RS 2 OUT | out | RS 2 OUT | high |
+| 7 | RS 1 OUT | out | RS 1 OUT | high |
+| 8 | SOLO OUT | out | SOLO OUT | high |
+| 9 | FADER OUT | insert_send | FADER OUT | high |
+| 10 | SHIELD | shield | shield | high |
+| 11 | M1 OUT | out | M1 OUT | high |
+| 12 | M2 OUT | out | M2 OUT | high |
+| 13 | SHIELD | shield | shield | high |
+| 14 | PREFADE IN | in | PREFADE IN | high |
+| 15 | FADER IN | insert_return | FADER IN | high |
+| 16 | DIRECT OUT | out | DIRECT OUT | high |
+| 17 | MONITOR OUT | out | MONITOR OUT | high |
+| 18 | CONTROL COMMON | ground |  | high |
+| 19 | -25 V | power |  | high |
+| 20 | COMMON | ground |  | high |
+| 21 | +25 V | power |  | high |
+| 22 | CHASSIS GROUND | ground |  | high |
+| A | INPUT | in | INPUT | high |
+| B | SHIELD | shield | shield | high |
+| C | PA OUT | out | PA OUT | high |
+| D | FB 2 OUT | out | FB 2 OUT | high |
+| E | FB 1 OUT | out | FB 1 OUT | high |
+| F | RS 2 OUT | out | RS 2 OUT | high |
+| H | RS 1 OUT | out | RS 1 OUT | high |
+| J | SOLO OUT | out | SOLO OUT | high |
+| K | FADER OUT | insert_send | FADER OUT | high |
+| L | SHIELD | shield | shield | high |
+| M | M1 OUT | out | M1 OUT | high |
+| N | M2 OUT | out | M2 OUT | high |
+| P | SHIELD | shield | shield | high |
+| R | PREFADE IN | in | PREFADE IN | high |
+| S | FADER IN | insert_return | FADER IN | high |
+| T | DIRECT OUT | out | DIRECT OUT | high |
+| U | MONITOR OUT | out | MONITOR OUT | high |
+| V | SOLO CONTROL | control_in | SOLO CTL | high |
+| W | M1 CONTROL | control_out | M1 CTL | high |
+| X | M2 CONTROL | control_out | M2 CTL | high |
+| Y | M1/M2 CONTROL IN | control_in | M1/M2 CTL IN | high |
+| Z | N/C | nc |  | high |
 
 ## Manuals and documents
 
