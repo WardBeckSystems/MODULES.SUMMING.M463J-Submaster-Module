@@ -4,13 +4,11 @@ Ward-Beck Systems M463J, 1972|5. Wiki page: [M463J on WBSps.ca](https://wardbeck
 
 | Folder | What is in it | Files |
 |---|---|---|
-| [SCHEMATICS/](SCHEMATICS/) | electrical drawings: schematics, functional diagrams, component layouts, wiring | 57 |
-| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 6 |
-| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 11 |
-| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 211 |
-| [PHOTOS/](PHOTOS/) | photographs of the module | 1 |
-| [SOFTWARE/](SOFTWARE/) | program listings, firmware, the plugin | 1 |
-| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 16 |
+| [SCHEMATICS/](SCHEMATICS/) | electrical drawings: schematics, functional diagrams, component layouts, wiring | 56 |
+| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 7 |
+| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 10 |
+| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 210 |
+| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 15 |
 | [OCR/](OCR/) | the note of every file: date, origin, title block, OCR text | 34 |
 
 <!-- module data: tools/module_specs.py, tools/forum_quotes.py -->
@@ -134,8 +132,6 @@ _Pinouts: the RTO-144 edge connector (connection sheets, connector layouts and r
 <tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKZ2pFV2toVUlIdVU/view?resourcekey=0-A0SV-aJ4YS_OqElH2kbttw" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKZ2pFV2toVUlIdVU&resourcekey=0-A0SV-aJ4YS_OqElH2kbttw" width="240" alt="1972 - M463J - 463-04-009 - CONNECTOR REAR VIEW HALE.jpg"></a><br><sub>1972|5 · 463-04-009 - CONNECTOR REAR VIEW HALE · <a href="PINOUTS/1972%20-%20M463J%20-%20463-04-009%20-%20CONNECTOR%20REAR%20VIEW%20HALE%20(EXTRACTED).svg">vectors</a></sub></td></tr>
 </table>
 
-Not on Google Drive yet: `M463J - RTO-144 Connections.pdf`
-
 ## RTO-144 pinout
 
 Read from 2 pinout pictures (each its own `.pinout.json` beside it); 2 to check (`conflicts`). Every contact, with where it was read: [`RTO.json`](RTO.json). How a picture becomes this table: [the pinout decision tree](https://github.com/WardBeckSystems/WBSps.ca/blob/main/2026/Engineering/PINOUTS.md).
@@ -227,7 +223,6 @@ _KiCad: a schematic (`.kicad_sch`) traced from each electrical drawing, the modu
 - [1972 - M463J - Submaster Module p26.kicad_sch](KICAD/1972%20-%20M463J%20-%20Submaster%20Module%20p26.kicad_sch)
 - [1972 - M463J - Submaster Module p30.kicad_sch](KICAD/1972%20-%20M463J%20-%20Submaster%20Module%20p30.kicad_sch)
 - [M463J.kicad_sym](KICAD/M463J.kicad_sym)
-- [index.html](KICAD/index.html)
 
 ---
 Archive: Anthony Peter Kuzub · [WBSps.ca](https://WBSps.ca) · [WBSps.Kuzub.com](https://WBSps.Kuzub.com)
