@@ -105,6 +105,15 @@ _Mechanical drawings: front panels, cover plates, metalwork and hardware (-03- d
 <tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKVkNZLW8yMmotdFk/view?resourcekey=0-pGXSlJdoHwg1Ct99AZgpLA" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKVkNZLW8yMmotdFk&resourcekey=0-pGXSlJdoHwg1Ct99AZgpLA" width="240" alt="1972 - M463J - 463-04-010 - WHEN DEPRESSED THE POSTFADE SIGNA.jpg"></a><br><sub>1972|5 · 463-04-010 - WHEN DEPRESSED THE POSTFADE SIGNA · <a href="MECHANICAL/1972%20-%20M463J%20-%20463-04-010%20-%20WHEN%20DEPRESSED%20THE%20POSTFADE%20SIGNA%20(EXTRACTED).svg">vectors</a></sub></td></tr>
 </table>
 
+## 3-D model
+
+[`MECHANICAL/M463J.stl`](MECHANICAL/M463J.stl) (GitHub turns it in 3-D) · [view, change and generate it on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/2026/stl.html?m=M463J)
+
+- **Size:** 56.78 × 208.34 mm panel, 165 mm deep, 3.2 mm plate (the drawing sheet, taken as drawn 1:1)
+- **From the drawing:** 13 holes and cut-outs, 0 knobs (front panel: `MECHANICAL/M463J - front panel.svg`)
+- the drawn panel is 0.21 wide to high, the size 0.27: placed by its height
+- Made by `tools/module_models.py` (→ `MECHANICAL/M463J.model.json`) and `tools/stl/make_stl.mjs` in [WBSps.ca](https://github.com/WardBeckSystems/WBSps.ca); the site makes the same STL from the same JSON.
+
 ## Schematics
 
 _Electrical drawings: schematics (-02-), functional diagrams (-01-), component layouts (-06-), wiring (-09-), PCB files (.pcb .dsn), and beside each scan its `(EXTRACTED).svg`: the vectors traced from it._
