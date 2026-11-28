@@ -1,5 +1,5 @@
 # 1972 - M463J - P001 - Title Page.jpg
-Wiki page: [M463J](../../../../PAGES/M463J.md)
+Wiki page: [M463J](../)
 
 
 - **Year:** 1972 (module estimate (family))

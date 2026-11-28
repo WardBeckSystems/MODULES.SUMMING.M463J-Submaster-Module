@@ -1,5 +1,5 @@
 # 1972 - M463J - 463-02-009 - NLESS OTHERWISE SPECIFIED COMPONENT DESIGNATIONS.jpg
-Wiki page: [M463J](../../../../PAGES/M463J.md)
+Wiki page: [M463J](../)
 
 
 - **Year:** 1972 (module estimate (family))

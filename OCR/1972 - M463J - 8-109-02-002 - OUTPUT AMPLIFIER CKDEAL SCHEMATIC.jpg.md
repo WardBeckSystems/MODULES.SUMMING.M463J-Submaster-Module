@@ -1,5 +1,5 @@
 # 1972 - M463J - 8-109-02-002 - OUTPUT AMPLIFIER CKDEAL SCHEMATIC.jpg
-Wiki page: [M463J](../../../../PAGES/M463J.md)
+Wiki page: [M463J](../)
 
 
 - **Year:** 1972 (module estimate (family))
